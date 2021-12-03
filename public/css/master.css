@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown-container{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+h1{
+  font-weight: bold !important;
+}
+.big-text{
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el{
+  text-align: center;
+}
+
+.countdown-el{
+  font-size: 1.5rem;
+}

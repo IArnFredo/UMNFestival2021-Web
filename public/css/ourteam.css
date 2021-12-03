@@ -1,0 +1,396 @@
+@font-face {
+  font-family: Trajan Pro;
+  src: url(/fonts/trajan-pro.woff2);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  background-position: center;
+  overflow-x: hidden;
+  font-family: "Trajan Pro" !important;
+  font-weight: bolder;
+}
+section{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* section img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-fit: cover;
+} */
+section #text{
+  font-size: 10vw;
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+}
+
+@media (min-width: 0px) {
+  .navbar{
+    background-color: #f1bb1c;
+  }
+}
+
+/*------------------------------------------------------- */
+
+/*logo divisi*/
+.logodivisi {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  -webkit-filter: drop-shadow(10px 10px 6px black);
+  filter: drop-shadow(0 0 0.5rem black);
+  /* filter: brightness(80%); */
+}
+
+.logodivisi:hover{
+  -webkit-filter: drop-shadow(10px 10px 6px yellow);
+  filter: drop-shadow(0 0 0.5rem yellow);
+  /* filter: brightness(100%); */
+}
+
+
+@media (min-width: 576px){
+.col-sm-4 {
+    flex: 0 0 auto !important;
+    width: 20% !important;
+}
+}
+
+body{
+  background-image: url('/images/aset/bg-banner.jpg');
+  background-size: cover;
+}
+
+a{
+  color:white !important;
+}
+/* modal divisi */
+#imagepreview{
+  width:150px;
+  height:150px;
+}
+
+
+#modal-container {
+  position: fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  z-index: 1;
+}
+
+#modal-container.two {
+  transform: scale(1);
+}
+#modal-container.two .modal-background {
+  background: rgba(0, 0, 0, 0);
+  animation: fadeIn 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.two .modal-background .modal {
+  opacity: 0;
+  animation: scaleUp 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.two + .content {
+  animation: scaleBack 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.two.out {
+  animation: quickScaleDown 0s 0.5s linear forwards;
+}
+#modal-container.two.out .modal-background {
+  animation: fadeOut 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.two.out .modal-background .modal {
+  animation: scaleDown 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+#modal-container.two.out + .content {
+  animation: scaleForward 0.5s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+
+#modal-container .modal-background {
+  display: table-cell;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+}
+#modal-container .modal-background .modal {
+  background-image: url('/images/bg2.jpg');
+  background-size: cover;
+  padding: 35px;
+  display: inline-block;
+  border-radius: 3px;
+  font-weight: 300;
+  position: relative;
+}
+#modal-container .modal-background .modal h3{
+  color: gold;
+  line-height: 1em;
+}
+#modal-container .modal-background .modal h4 {
+  color: white;
+  line-height: 1em;
+}
+#modal-container .modal-background .modal p {
+  color: white;
+  line-height: 1.5em;
+}
+#modal-container .modal-background .modal .modal-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+#modal-container .modal-background .modal .modal-svg rect {
+  stroke: #fff;
+  stroke-width: 2px;
+  stroke-dasharray: 778;
+  stroke-dashoffset: 778;
+}
+.content {
+  min-height: 100%;
+  height: 100%;
+  /* background: white; */
+  position: relative;
+  z-index: 0;
+}
+.content h1 {
+  padding: 75px 0 30px 0;
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+.content .buttons {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+.content .buttons .button {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 10px;
+  background: red;
+  font-size: 18px;
+  background-color: #efefef;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.content .buttons .button:hover {
+  color: white;
+  background: #009bd5;
+}
+
+@keyframes fadeIn {
+  0% {
+    background: rgba(0, 0, 0, 0);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0.7);
+  }
+}
+@keyframes fadeOut {
+  0% {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  100% {
+    background: rgba(0, 0, 0, 0);
+  }
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.8) translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes scaleDown {
+  0% {
+    transform: scale(1) translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8) translateY(1000px);
+    opacity: 0;
+  }
+}
+@keyframes scaleBack {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.85);
+  }
+}
+@keyframes scaleForward {
+  0% {
+    transform: scale(0.85);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes quickScaleDown {
+  0% {
+    transform: scale(1);
+  }
+  99.9% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+.modal{
+  width:750px!important;
+  height:450px!important;
+}
+
+@media screen and (max-width: 768px) {
+  .modal{
+    width:500px!important;
+    height:500px!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .modal{
+    width:450px!important;
+    height:400px!important;
+  }
+  #modal-container .modal-background .modal h3{
+    font-size: 20px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal h4{
+    font-size: 18px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal p {
+    font-size: 15px;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .modal{
+    width:450px!important;
+    height:350px!important;
+  }
+  #modal-container .modal-background .modal h3{
+    font-size: 18px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal h4{
+    font-size: 16px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal p {
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 430px) {
+  .modal{
+    width:350px!important;
+    height:350px!important;
+  }
+  #modal-container .modal-background .modal h3{
+    font-size: 18px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal h4{
+    font-size: 16px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal p {
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .modal{
+    width:300px!important;
+    height:500px!important;
+  }
+  #modal-container .modal-background .modal h3{
+    font-size: 18px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal h4{
+    font-size: 16px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal p {
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+}
+@media screen and (max-width: 321px) {
+  .modal{
+    width:280px!important;
+    height:400px!important;
+  }
+  #modal-container .modal-background .modal h3{
+    font-size: 18px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal h4{
+    font-size: 16px;
+    line-height: 1em;
+  }
+  #modal-container .modal-background .modal p {
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+}
+
+/* Preloader */
+/* Preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  /* background-image: url('/images/bg-brand.jpg'); */
+  background: #f1bb1c;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.preloader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font: 14px arial;
+}
