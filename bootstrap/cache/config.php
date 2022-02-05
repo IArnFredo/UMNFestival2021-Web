@@ -183,7 +183,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\framework/cache/data',
+        'path' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -354,12 +354,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\app',
+        'root' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\app/public',
+        'root' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\app/public',
         'url' => 'http://ufest-v3.test/storage',
         'visibility' => 'public',
       ),
@@ -377,7 +377,7 @@
     ),
     'links' => 
     array (
-      'D:\\Software\\xampp\\htdocs\\laravel\\public\\storage' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\app/public',
+      'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\public\\storage' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -411,13 +411,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\logs/laravel.log',
+        'path' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\logs/laravel.log',
+        'path' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -468,7 +468,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\logs/laravel.log',
+        'path' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -525,7 +525,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'D:\\Software\\xampp\\htdocs\\laravel\\resources\\views/vendor/mail',
+        0 => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -608,7 +608,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\framework/sessions',
+    'files' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -628,9 +628,9 @@
   array (
     'paths' => 
     array (
-      0 => 'D:\\Software\\xampp\\htdocs\\laravel\\resources\\views',
+      0 => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\resources\\views',
     ),
-    'compiled' => 'D:\\Software\\xampp\\htdocs\\laravel\\storage\\framework\\views',
+    'compiled' => 'D:\\Software\\xampp\\htdocs\\UMNFestival2021\\storage\\framework\\views',
   ),
   'flare' => 
   array (

@@ -74,4 +74,4 @@
 <?php unset($__componentOriginal2dab26517731ed1416679a121374450d5cff5e0d); ?>
 <?php endif; ?>
 <?php echo $__env->renderComponent(); ?>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Notifications\resources\views\email.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\vendor\laravel\framework\src\Illuminate\Notifications\resources\views\email.blade.php ENDPATH**/ ?>

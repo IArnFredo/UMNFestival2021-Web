@@ -1330,4 +1330,4 @@
     AOS.init();
   </script>
 </html>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\resources\views\bracketml.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\resources\views\bracketml.blade.php ENDPATH**/ ?>

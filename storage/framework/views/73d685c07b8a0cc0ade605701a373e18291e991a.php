@@ -74,7 +74,7 @@
               <li class="nav-item active mx-3"><a href="/" class="nav-link">Home</a></li>
               <li class="nav-item mx-3"><a href="our-team" class="nav-link">Our Team</a></li>
               <!-- <li class="nav-item mx-3"><a href="/U-Care" class="nav-link">U-Care</a></li> -->
-              <li class="nav-item mx-3"><a href="/ulympic" class="nav-link">Ulympic</a></li>
+              <li class="nav-item mx-3"><a href="/unify" class="nav-link">Unify</a></li>
             </ul>
           </div>
         </div>
@@ -244,7 +244,7 @@
    <!-- script -->
     <script src="/js/jquery-mousewheel-main/jquery.mousewheel.js" charset="utf-8"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" charset="utf-8"></script>
     <script src="/owlcarousel/dist/owl.carousel.min.js"></script>
 
@@ -253,4 +253,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\resources\views\index.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\resources\views\index.blade.php ENDPATH**/ ?>

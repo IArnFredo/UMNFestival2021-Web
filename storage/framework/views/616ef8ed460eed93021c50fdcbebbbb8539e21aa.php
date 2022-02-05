@@ -298,4 +298,4 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js" charset="utf-8"></script>
 </html>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\resources\views/unify.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\resources\views\unify.blade.php ENDPATH**/ ?>

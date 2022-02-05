@@ -18,8 +18,8 @@
 
 
 	<div class="bg-img1 size1 overlay1" style="background-image: url('/images/ucarebg.png');">
-		<div class="size1 p-l-15 p-r-15 p-t-30">
-			<div class="flex-w flex-sb-m p-l-75 p-r-60 p-b-50 respon1">
+		<div class="size1 p-l-15 p-r-15 p-t-30 p-b-50">
+			<div class="flex-w flex-sb-m p-l-75 p-r-60 p-b-165 respon1">
 				<div class="wrappic1 m-r-30 m-t-10 m-b-10">
 					<a href="/"><img src="/images/ufest.png" width="40px" alt="LOGO"></a>
 				</div>
@@ -41,19 +41,29 @@
 					</a>
 				</div>
 			</div>
-      <div class="wsize1 m-lr-auto text-center mb-4">
-        <img src="/images/close2.png" width="320px" alt="">
-      </div>
+
 			<div class="wsize1 m-lr-auto">
+				<h4 class="txt-center p-b-60">
+					<b>Anda Telah bergabung menjadi Volunteer U-CARE 2021</b><br><br>
+					Terima kasih telah mendaftarkan diri menjadi Volunteer U-CARE 2021.<br>Semoga kebaikan dan kebahagiaan yang akan kalian berikan dapat menjadi berkah berharga bagi mereka yang membutuhkan.<br><br>
+					Setelah ini teman-teman dipersilahkan untuk mengunggah twibbon yang telah disiapkan di Instragram masing-masing <a href="https://twb.nz/ucare2021">(https://twb.nz/ucare2021)</a>
+					<br><br>Informasi lebih lanjut, silakan hubungi Instagram <a href="https://www.instagram.com/umnfestival/">@umnfestival</a> atau <a href="https://www.instagram.com/ucare_2021/">@ucare_2021</a>
+				</h4>
 					<a href="/U-Care"><button class="txt-center  m-lr-auto flex-c-m size3 m1-txt2 how-btn1 trans-04 m-b-20">
 					Kembali Ke U-Care
 					</button></a>
+
 				<p class="txt-center s1-txt1 p-t-5">
+
 				</p>
 			</div>
 
 		</div>
 	</div>
+
+
+
+
 
 <!--===============================================================================================-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -67,4 +77,4 @@
 
 </body>
 </html>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\resources\views\close2.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\resources\views\final.blade.php ENDPATH**/ ?>

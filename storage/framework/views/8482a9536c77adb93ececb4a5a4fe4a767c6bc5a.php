@@ -167,4 +167,4 @@ UMN Festival 2021 merupakan festival bertema “Warrior” yang mendukung mahasi
     AOS.init();
   </script>
 </html>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\resources\views\ulympic.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\resources\views\ulympic.blade.php ENDPATH**/ ?>

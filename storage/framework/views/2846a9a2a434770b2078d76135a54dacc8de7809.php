@@ -88,4 +88,4 @@
   </body>
 
 </html>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\resources\views\comingsoon.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\resources\views\comingsoon.blade.php ENDPATH**/ ?>

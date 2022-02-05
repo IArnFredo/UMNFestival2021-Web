@@ -226,4 +226,4 @@ uploadUcare.onchange = function() {
 </script>
 </body>
 </html>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\resources\views\form.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\resources\views\form.blade.php ENDPATH**/ ?>

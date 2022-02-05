@@ -38,7 +38,7 @@
               <li class="nav-item active mx-3"><a href="/" class="nav-link">Home</a></li>
               <li class="nav-item mx-3"><a href="our-team" class="nav-link">Our Team</a></li>
               <!-- <li class="nav-item mx-3"><a href="/U-Care" class="nav-link">U-Care</a></li> -->
-              <li class="nav-item mx-3"><a href="/ulympic" class="nav-link">Ulympic</a></li>
+              <li class="nav-item mx-3"><a href="/unify" class="nav-link">Unify</a></li>
             </ul>
           </div>
         </div>
@@ -331,4 +331,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\resources\views\ourteam.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\resources\views\ourteam.blade.php ENDPATH**/ ?>

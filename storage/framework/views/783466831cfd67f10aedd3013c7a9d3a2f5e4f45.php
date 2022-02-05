@@ -34,4 +34,4 @@
         <?php endif; ?>
     </div>
 <?php endif; ?>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Pagination\resources\views\semantic-ui.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\vendor\laravel\framework\src\Illuminate\Pagination\resources\views\semantic-ui.blade.php ENDPATH**/ ?>

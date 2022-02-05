@@ -109,4 +109,4 @@
         </div>
     </nav>
 <?php endif; ?>
-<?php /**PATH D:\Software\xampp\htdocs\laravel\vendor\laravel\framework\src\Illuminate\Pagination\resources\views\tailwind.blade.php ENDPATH**/ ?>
+<?php /**PATH D:\Software\xampp\htdocs\UMNFestival2021\vendor\laravel\framework\src\Illuminate\Pagination\resources\views\tailwind.blade.php ENDPATH**/ ?>
